@@ -1,0 +1,23 @@
+{
+    "name": "bookstore-backend",
+    "version": "1.0.0",
+    "description": "Example bookstore backend in Node.js",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest --detectOpenHandles --forceExit"
+    },
+    "author": "GitHub Solutions Engineering",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "pg": "^8.10.0",
+        "sqlite3": "^5.1.6",
+        "url-parse": "=1.5.1"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "supertest": "6.3.3"
+    }
+}
